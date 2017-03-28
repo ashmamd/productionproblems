@@ -1,0 +1,42 @@
+table {
+    margin-left: 5px;
+    border-collapse: collapse;
+    position: relative;
+    left: 6%;
+    float: left;
+}
+#welcome{
+    color: #C63C1F;
+    margin-left: 2.4em;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5em;
+    
+    float: left;
+}
+#image{
+    margin-right: 5.2em;
+    margin-bottom: 0.5em;
+    float: right;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    width: 1100px;
+}
+th{
+    font-family: 'Fredoka One', cursive;
+    color: #9B2309;
+}
+.super{
+    font-size: 0.4em;
+    position: relative;
+    top: -5px;
+}
+
+#mainheader{
+    background: #f7fbfc; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #f7fbfc 0%, #d9edf2 86%, #add9e4 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #f7fbfc 0%,#d9edf2 86%,#add9e4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #f7fbfc 0%,#d9edf2 86%,#add9e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+}
